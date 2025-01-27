@@ -3,23 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Change Colors Example</title>
+    <title>Anime Character Gallery</title>
     <style>
         body {
-            background-color: #05077c;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f9f9f9;
         }
-        /* Change text color of headings */
-        h1 {
-            color: #4756ff; /* Tomato red */
+        .anime-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-top: 20px;
         }
-        /* Change text color of paragraphs */
-        p {
-            color: #06ffac; /* Sea green */
+        .anime-card {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 250px;
+        }
+        .anime-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .anime-card h3 {
+            font-size: 22px;
+            margin-top: 10px;
+        }
+        .anime-card p {
+            font-size: 16px;
+            color: #555;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to My Colorful Page!</h1>
+    <h1>Anime Character Gallery</h1>
+    <div class="anime-container">
+        <div class="anime-card">
+            <img src="https://anime-images-api.herokuapp.com/images/characters/1" alt="Naruto Uzumaki">
+            <h3>Naruto Uzumaki</h3>
+            <p>Naruto is the main protagonist of the anime *Naruto*. He is an energetic and determined ninja who dreams of becoming the Hokage to gain the recognition of his village.</p>
+        </div>
+        <div class="anime-card">
+            <img src="https://anime-images-api.herokuapp.com/images/characters/2" alt="Sailor Moon">
+            <h3>Sailor Moon</h3>
+            <p>Sailor Moon, also known as Usagi Tsukino, is a magical girl who transforms into Sailor Moon to protect Earth from evil forces. She is brave, loving, and often clumsy.</p>
+        </div>
+        <div class="anime-card">
+            <img src="https://anime-images-api.herokuapp.com/images/characters/3" alt="Luffy">
+            <h3>Monkey D. Luffy</h3>
+            <p>Luffy is the main character in *One Piece*. He has the power of the Gum-Gum Fruit and his dream is to become the Pirate King by finding the legendary One Piece treasure.</p>
+        </div>
+        <div class="anime-card">
+            <img src="https://anime-images-api.herokuapp.com/images/characters/4" alt="Goku">
+            <h3>Goku</h3>
+            <p>Goku is the protagonist of *Dragon Ball Z*. A Saiyan warrior with incredible strength, Goku is always seeking to improve himself through battles and training.</p>
+        </div>
+    </div>
 </body>
 </html>
 
