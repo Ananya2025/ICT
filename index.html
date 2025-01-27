@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anime Character Gallery</title>
+    <title>Anime to Watch</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            background-color: #f9f9f9;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            margin-top: 30px;
+            font-size: 36px;
+            color: #333;
         }
         .anime-container {
             display: flex;
@@ -23,6 +28,7 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             padding: 20px;
             width: 250px;
+            text-align: left;
         }
         .anime-card img {
             width: 100%;
@@ -30,39 +36,83 @@
             border-radius: 10px;
         }
         .anime-card h3 {
-            font-size: 22px;
+            font-size: 20px;
             margin-top: 10px;
+            color: #333;
         }
         .anime-card p {
-            font-size: 16px;
+            font-size: 14px;
             color: #555;
         }
     </style>
 </head>
 <body>
-    <h1>Anime Character Gallery</h1>
+    <h1>Anime to Watch</h1>
     <div class="anime-container">
+        <!-- Demon Slayer -->
         <div class="anime-card">
-            <img src="https://anime-images-api.herokuapp.com/images/characters/1" alt="Naruto Uzumaki">
-            <h3>Naruto Uzumaki</h3>
-            <p>Naruto is the main protagonist of the anime *Naruto*. He is an energetic and determined ninja who dreams of becoming the Hokage to gain the recognition of his village.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/en/d/d8/Demon_Slayer_Entertainment_District_Arc_Logo.png" alt="Demon Slayer">
+            <h3>Demon Slayer</h3>
+            <p>Demon Slayer follows Tanjiro Kamado, a boy who becomes a demon slayer after his family is killed by demons. He strives to protect his sister Nezuko, who has turned into a demon.</p>
         </div>
+
+        <!-- My Hero Academia -->
         <div class="anime-card">
-            <img src="https://anime-images-api.herokuapp.com/images/characters/2" alt="Sailor Moon">
-            <h3>Sailor Moon</h3>
-            <p>Sailor Moon, also known as Usagi Tsukino, is a magical girl who transforms into Sailor Moon to protect Earth from evil forces. She is brave, loving, and often clumsy.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/My_Hero_Academia_logo.svg" alt="My Hero Academia">
+            <h3>My Hero Academia</h3>
+            <p>My Hero Academia takes place in a world where nearly everyone has superpowers, or "quirks". It follows Izuku Midoriya, a boy born without a quirk, who dreams of becoming a great hero.</p>
         </div>
+
+        <!-- One Piece -->
         <div class="anime-card">
-            <img src="https://anime-images-api.herokuapp.com/images/characters/3" alt="Luffy">
-            <h3>Monkey D. Luffy</h3>
-            <p>Luffy is the main character in *One Piece*. He has the power of the Gum-Gum Fruit and his dream is to become the Pirate King by finding the legendary One Piece treasure.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/One_Piece_Logo_2019.png" alt="One Piece">
+            <h3>One Piece</h3>
+            <p>One Piece follows Monkey D. Luffy and his pirate crew as they search for the ultimate treasure, the "One Piece", in order to become the Pirate King.</p>
         </div>
+
+        <!-- Oshi no Ko -->
         <div class="anime-card">
-            <img src="https://anime-images-api.herokuapp.com/images/characters/4" alt="Goku">
-            <h3>Goku</h3>
-            <p>Goku is the protagonist of *Dragon Ball Z*. A Saiyan warrior with incredible strength, Goku is always seeking to improve himself through battles and training.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Oshi_no_Ko_Logo.png" alt="Oshi no Ko">
+            <h3>Oshi no Ko</h3>
+            <p>Oshi no Ko centers around the world of idols, fame, and revenge. It follows the story of a doctor who is reincarnated as the child of a famous idol.</p>
+        </div>
+
+        <!-- Assassination Classroom -->
+        <div class="anime-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Assassination_Classroom_logo.svg" alt="Assassination Classroom">
+            <h3>Assassination Classroom</h3>
+            <p>Assassination Classroom is about a group of students tasked with assassinating their strange and powerful teacher, Koro-sensei, before he destroys the Earth.</p>
+        </div>
+
+        <!-- Bungo Stray Dogs -->
+        <div class="anime-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Bungo_Stray_Dogs_Logo.svg" alt="Bungo Stray Dogs">
+            <h3>Bungo Stray Dogs</h3>
+            <p>Bungo Stray Dogs follows a group of detectives who have supernatural abilities, solving cases while facing off against powerful criminal organizations.</p>
+        </div>
+
+        <!-- Hell's Paradise -->
+        <div class="anime-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Hell%27s_Paradise_Logo.png" alt="Hell's Paradise">
+            <h3>Hell's Paradise</h3>
+            <p>Hell's Paradise tells the story of a disgraced shinobi, Gabimaru, who embarks on a dangerous journey to a mysterious island to find the secret to immortality.</p>
+        </div>
+
+        <!-- JoJo's Bizarre Adventure -->
+        <div class="anime-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/JoJo%27s_Bizarre_Adventure_Logo.png" alt="JoJo's Bizarre Adventure">
+            <h3>JoJo's Bizarre Adventure</h3>
+            <p>JoJo's Bizarre Adventure follows the Joestar family through generations, each member with unique supernatural abilities, battling enemies in eccentric and flamboyant adventures.</p>
+        </div>
+
+        <!-- Tokyo Ghoul -->
+        <div class="anime-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Tokyo_Ghoul_Logo.svg" alt="Tokyo Ghoul">
+            <h3>Tokyo Ghoul</h3>
+            <p>Tokyo Ghoul revolves around Ken Kaneki, a college student who is transformed into a half-ghoul after a near-fatal encounter with a ghoul, and struggles to find his identity in a world where humans and ghouls are in conflict.</p>
         </div>
     </div>
 </body>
 </html>
+
 
