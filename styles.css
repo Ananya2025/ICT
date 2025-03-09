@@ -10,11 +10,11 @@
         }
         /* Change text color of headings */
         h1 {
-            color: #000000; /* Tomato red */
+            color: #FF6347; /* Tomato red */
         }
         /* Change text color of paragraphs */
         p {
-            color: #ffffff; /* Sea green */
+            color: #2E8B57; /* Sea green */
         }
     </style>
 </head>
