@@ -23,9 +23,9 @@
             margin-top: 20px;
         }
         .anime-card {
-            background-color: rgba(0, 0, 0, 0.1);
+            background-color: #ffffff;
             border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             padding: 20px;
             width: 250px;
             text-align: left;
@@ -35,84 +35,47 @@
             height: auto;
             border-radius: 10px;
         }
-        .anime-card h3 {
-            font-size: 20px;
-            margin-top: 10px;
-            color: #eaebea;
+        .anime-card h3, p {
+            color: #000000;
         }
-        .anime-card p {
-            font-size: 14px;
-            color: #f5f2f2;
+        .buttons {
+            margin-top: 20px;
+        }
+        .buttons a {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 16px;
+            color: white;
+            background-color: #007BFF;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .buttons a:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
     <h1>Anime to Watch</h1>
+
+    <div class="buttons">
+        <a href="#">Author</a>
+        <a href="buy.html">Buy</a>
+    </div>
+
     <div class="anime-container">
-        <!-- Demon Slayer -->
         <div class="anime-card">
             <img src="https://play-lh.googleusercontent.com/Z4-3_Bsqa5-pLAM4FQaZ1gxX4weMNkBrJluEmWKJYcwt-Fy4B9LaZ63bE66X6mMHFybK05atN1TKUmIJtRk=w240-h480-rw" alt="Demon Slayer">
             <h3>Demon Slayer</h3>
-            <p>Demon Slayer follows Tanjiro Kamado, a boy who becomes a demon slayer after his family is killed by demons. He strives to protect his sister Nezuko, who has turned into a demon.</p>
+            <p>Demon Slayer follows Tanjiro Kamado, a boy who becomes a demon slayer after his family is killed by demons.</p>
         </div>
-
-        <!-- My Hero Academia -->
         <div class="anime-card">
             <img src="https://m.media-amazon.com/images/M/MV5BNzgxMzI3NzgtYzE2Zi00MzlmLThlNWEtNWVmZWEyZjNkZWYyXkEyXkFqcGc@._V1_QL75_UY281_CR5,0,190,281_.jpg" alt="My Hero Academia">
             <h3>My Hero Academia</h3>
-            <p>My Hero Academia takes place in a world where nearly everyone has superpowers, or "quirks". It follows Izuku Midoriya, a boy born without a quirk, who dreams of becoming a great hero.</p>
-        </div>
-
-        <!-- One Piece -->
-        <div class="anime-card">
-            <img src="https://image.pmgstatic.com/cache/resized/w420/files/images/film/posters/168/330/168330138_ka0yw0.jpg" alt="One Piece">
-            <h3>One Piece</h3>
-            <p>One Piece follows Monkey D. Luffy and his pirate crew as they search for the ultimate treasure, the "One Piece", in order to become the Pirate King.</p>
-        </div>
-
-        <!-- Oshi no Ko -->
-        <div class="anime-card">
-            <img src="https://external-preview.redd.it/oshi-no-ko-season-2-key-visual-v0-o8EhcuSHC2__9L52lzjMGI9pHds9z3J3PWFGnhIcPLY.jpg?width=640&crop=smart&auto=webp&s=69ff2339ff18a7a757457d259c119a33940dc39d" alt="Oshi no Ko">
-            <h3>Oshi no Ko</h3>
-            <p>Oshi no Ko centers around the world of idols, fame, and revenge. It follows the story of a doctor who is reincarnated as the child of a famous idol.</p>
-        </div>
-
-        <!-- Assassination Classroom -->
-        <div class="anime-card">
-            <img src="https://image.pmgstatic.com/cache/resized/w420/files/images/film/posters/165/821/165821908_5cae0c.jpg" alt="Assassination Classroom">
-            <h3>Assassination Classroom</h3>
-            <p>Assassination Classroom is about a group of students tasked with assassinating their strange and powerful teacher, Koro-sensei, before he destroys the Earth.</p>
-        </div>
-
-        <!-- Bungo Stray Dogs -->
-        <div class="anime-card">
-            <img src="https://m.media-amazon.com/images/M/MV5BYzA5Y2MzNDAtZjBjZi00OTUzLWI5NDAtMTg1ODRhMmU2MGY3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Bungo Stray Dogs">
-            <h3>Bungo Stray Dogs</h3>
-            <p>Bungo Stray Dogs follows a group of detectives who have supernatural abilities, solving cases while facing off against powerful criminal organizations.</p>
-        </div>
-
-        <!-- Hell's Paradise -->
-        <div class="anime-card">
-            <img src="https://ninoma.com/cdn/shop/products/51EOZgPLwlL.jpg?v=1701430091" alt="Hell's Paradise">
-            <h3>Hell's Paradise</h3>
-            <p>Hell's Paradise tells the story of a disgraced shinobi, Gabimaru, who embarks on a dangerous journey to a mysterious island to find the secret to immortality.</p>
-        </div>
-
-        <!-- JoJo's Bizarre Adventure -->
-        <div class="anime-card">
-            <img src="https://m.media-amazon.com/images/M/MV5BMzIyNzY4NTMtNmVhYS00OWFhLTkwMWMtOGFkNTdmNWU2ZDdiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="JoJo's Bizarre Adventure">
-            <h3>JoJo's Bizarre Adventure</h3>
-            <p>JoJo's Bizarre Adventure follows the Joestar family through generations, each member with unique supernatural abilities, battling enemies in eccentric and flamboyant adventures.</p>
-        </div>
-
-        <!-- Tokyo Ghoul -->
-        <div class="anime-card">
-            <img src="https://image.pmgstatic.com/cache/resized/w420/files/images/film/posters/162/813/162813843_d86933.jpg" alt="Tokyo Ghoul">
-            <h3>Tokyo Ghoul</h3>
-            <p>Tokyo Ghoul revolves around Ken Kaneki, a college student who is transformed into a half-ghoul after a near-fatal encounter with a ghoul, and struggles to find his identity in a world where humans and ghouls are in conflict.</p>
+            <p>My Hero Academia follows Izuku Midoriya, a boy without a quirk, who dreams of becoming a hero.</p>
         </div>
     </div>
 </body>
 </html>
-
-
