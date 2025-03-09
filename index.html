@@ -4,78 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anime to Watch</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f4f4f4;
-        }
-        h1 {
-            margin-top: 30px;
-            font-size: 36px;
-            color: #000000;
-        }
-        .anime-container {
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            flex-wrap: wrap;
-            margin-top: 20px;
-        }
-        .anime-card {
-            background-color: #ffffff;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            padding: 20px;
-            width: 250px;
-            text-align: left;
-        }
-        .anime-card img {
-            width: 100%;
-            height: auto;
-            border-radius: 10px;
-        }
-        .anime-card h3, p {
-            color: #000000;
-        }
-        .buttons {
-            margin-top: 20px;
-        }
-        .buttons a {
-            display: inline-block;
-            padding: 10px 20px;
-            margin: 5px;
-            font-size: 16px;
-            color: white;
-            background-color: #007BFF;
-            border-radius: 5px;
-            text-decoration: none;
-            transition: 0.3s;
-        }
-        .buttons a:hover {
-            background-color: #0056b3;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>Anime to Watch</h1>
-
-    <div class="buttons">
-        <a href="#">Author</a>
-        <a href="buy.html">Buy</a>
+   
+    <!-- Navigation Buttons -->
+    <div class="nav-buttons">
+        <a href="watchlist.html" class="nav-btn">Watchlist</a>
+        <a href="trending.html" class="nav-btn">Trending</a>
     </div>
 
     <div class="anime-container">
+        <!-- Anime Cards (Same as before) -->
         <div class="anime-card">
             <img src="https://play-lh.googleusercontent.com/Z4-3_Bsqa5-pLAM4FQaZ1gxX4weMNkBrJluEmWKJYcwt-Fy4B9LaZ63bE66X6mMHFybK05atN1TKUmIJtRk=w240-h480-rw" alt="Demon Slayer">
             <h3>Demon Slayer</h3>
-            <p>Demon Slayer follows Tanjiro Kamado, a boy who becomes a demon slayer after his family is killed by demons.</p>
+            <p>Demon Slayer follows Tanjiro Kamado...</p>
         </div>
+
         <div class="anime-card">
             <img src="https://m.media-amazon.com/images/M/MV5BNzgxMzI3NzgtYzE2Zi00MzlmLThlNWEtNWVmZWEyZjNkZWYyXkEyXkFqcGc@._V1_QL75_UY281_CR5,0,190,281_.jpg" alt="My Hero Academia">
             <h3>My Hero Academia</h3>
-            <p>My Hero Academia follows Izuku Midoriya, a boy without a quirk, who dreams of becoming a hero.</p>
+            <p>My Hero Academia takes place in a world...</p>
         </div>
+       
+        <!-- Add more anime cards as needed -->
     </div>
 </body>
 </html>
